@@ -1,0 +1,48 @@
+# -------------------------------------------------------------------
+# 规则名称:香港券商分流规则 (Clash.Meta / Mihomo 专用)
+# -------------------------------------------------------------------
+
+payload:
+  # === 富途证券 / Moomoo ===
+  - DOMAIN-SUFFIX,futuhk.com
+  - DOMAIN-SUFFIX,futu.link
+  - DOMAIN-SUFFIX,futunn.com
+  - DOMAIN-SUFFIX,futuhn.com
+  - DOMAIN-SUFFIX,futu.com
+  - DOMAIN-SUFFIX,futu0.com
+  - DOMAIN-SUFFIX,futu1.com
+  - DOMAIN-SUFFIX,futu2.com
+  - DOMAIN-SUFFIX,futu3.com
+  - DOMAIN-SUFFIX,futu4.com
+  - DOMAIN-SUFFIX,futu5.com
+  - DOMAIN-SUFFIX,futu6.com
+  - DOMAIN-SUFFIX,futu7.com
+  - DOMAIN-SUFFIX,futu8.com
+  - DOMAIN-SUFFIX,futu9.com
+  - DOMAIN-SUFFIX,futuinc.com
+  - DOMAIN-SUFFIX,futuniuniu.com
+  - DOMAIN-SUFFIX,futu.cn
+  - DOMAIN-SUFFIX,futufin.com
+  - DOMAIN-SUFFIX,futuhk2.com
+  - DOMAIN-SUFFIX,futuholdings.com
+  - DOMAIN-SUFFIX,futuesop.com
+  - DOMAIN-SUFFIX,futubull.cn
+  - DOMAIN-SUFFIX,futuchain.com
+  - DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com
+  - DOMAIN-SUFFIX,shortconn.im.qcloud.com
+  - DOMAIN-SUFFIX,cdn.futustatic.com
+  - DOMAIN-SUFFIX,api.moomoobull.com
+  - DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com
+
+  # === 长桥证券 (Longbridge) ===
+  - DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,lbctrl.com
+  - DOMAIN-KEYWORD,longbridge
+
+
+  # === 盈立证券 (uSmart) ===
+  - DOMAIN-SUFFIX,usmartsecurities.com
+  - DOMAIN-SUFFIX,usmartex.com
+  - DOMAIN-SUFFIX,usmart.hk
+  - DOMAIN-SUFFIX,usmartglobal.com
+  - DOMAIN-KEYWORD,usmart
