@@ -36,7 +36,7 @@ payload:
 
 # Moomoo
   - DOMAIN-SUFFIX,moomoo.com
-  - DOMAIN-SUFFIX,api.moomoobull.com
+  - DOMAIN-SUFFIX,moomoobull.com
   - DOMAIN-SUFFIX,moomooequity.com
   - DOMAIN-SUFFIX,moomootrustee.com
 
