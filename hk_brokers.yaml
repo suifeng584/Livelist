@@ -41,8 +41,7 @@ payload:
   - DOMAIN-SUFFIX,moomootrustee.com
 
 # Futu / Moomoo
-  - DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com
-  - DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com
+  - DOMAIN-SUFFIX,launches.appsflyersdk.com
   - DOMAIN-SUFFIX,shortconn.im.qcloud.com
 
   # === 长桥证券 (Longbridge) ===
