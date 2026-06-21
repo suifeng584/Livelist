@@ -3,46 +3,52 @@
 # -------------------------------------------------------------------
 
 payload:
-  - DOMAIN-SUFFIX,futu.link
-  - DOMAIN-SUFFIX,futu.com
-  - DOMAIN-SUFFIX,futu.cn
-  - DOMAIN-SUFFIX,futunn.com
-  - DOMAIN-SUFFIX,futu0.com
-  - DOMAIN-SUFFIX,futu1.com
-  - DOMAIN-SUFFIX,futu2.com
-  - DOMAIN-SUFFIX,futu3.com
-  - DOMAIN-SUFFIX,futu4.com
-  - DOMAIN-SUFFIX,futu5.com
-  - DOMAIN-SUFFIX,futu6.com
-  - DOMAIN-SUFFIX,futu7.com
-  - DOMAIN-SUFFIX,futu8.com
-  - DOMAIN-SUFFIX,futu9.com
-  - DOMAIN-SUFFIX,futuau.com
-  - DOMAIN-SUFFIX,futuesop.com
-  - DOMAIN-SUFFIX,futufin.com
-  - DOMAIN-SUFFIX,futuhk.com
-  - DOMAIN-SUFFIX,futuhk2.com
-  - DOMAIN-SUFFIX,futuhkapp.com
-  - DOMAIN-SUFFIX,futuhn.com
-  - DOMAIN-SUFFIX,futuholdings.com
-  - DOMAIN-SUFFIX,futuinc.com
-  - DOMAIN-SUFFIX,futuniuniu.com
-  - DOMAIN-SUFFIX,futubull.cn
-  - DOMAIN-SUFFIX,futuchain.com
-  - DOMAIN-SUFFIX,futustatic.com
-  - DOMAIN-SUFFIX,fututrade.com
-  - DOMAIN-SUFFIX,fututrustee.com
-  - DOMAIN-SUFFIX,cdn.futustatic.com
+  # --- 富途牛牛 (精确匹配域名) ---
+  - DOMAIN,qtcard.futunn.com
+  - DOMAIN,qtcardfthk.futufin.com
+  - DOMAIN,openapi.futunn.com
+  - DOMAIN,api.futunn.com
+  - DOMAIN,api5.futunn.com
+  - DOMAIN,trade.futunn.com
+  - DOMAIN,support.futunn.com
+  - DOMAIN,download.futunn.com
+  - DOMAIN,cdn.futustatic.com
 
-# Moomoo
+  # --- 富途牛牛 (后缀匹配域名) ---
+  - DOMAIN-SUFFIXhk.com
+  - DOMAIN-SUFFIX.link
+  - DOMAIN-SUFFIXnn.com
+  - DOMAIN-SUFFIXhn.com
+  - DOMAIN-SUFFIX.com
+  - DOMAIN-SUFFIX0.com
+  - DOMAIN-SUFFIX1.com
+  - DOMAIN-SUFFIX2.com
+  - DOMAIN-SUFFIX3.com
+  - DOMAIN-SUFFIX4.com
+  - DOMAIN-SUFFIX5.com
+  - DOMAIN-SUFFIX6.com
+  - DOMAIN-SUFFIX7.com
+  - DOMAIN-SUFFIX8.com
+  - DOMAIN-SUFFIX9.com
+  - DOMAIN-SUFFIXinc.com
+  - DOMAIN-SUFFIXniuniu.com
+  - DOMAIN-SUFFIX.cn
+  - DOMAIN-SUFFIXfin.com
+  - DOMAIN-SUFFIXhk2.com
+  - DOMAIN-SUFFIXholdings.com
+  - DOMAIN-SUFFIXesop.com
+  - DOMAIN-SUFFIXbull.cn
+  - DOMAIN-SUFFIXchain.com
   - DOMAIN-SUFFIX,moomoo.com
-  - DOMAIN-SUFFIX,moomoobull.com
-  - DOMAIN-SUFFIX,moomooequity.com
-  - DOMAIN-SUFFIX,moomootrustee.com
 
-# Futu / Moomoo
-  - DOMAIN-SUFFIX,launches.appsflyersdk.com
-  - DOMAIN-SUFFIX,shortconn.im.qcloud.com
+  # --- 富途牛牛 (海外服务器 IP 段) ---
+  - IP-CIDR,119.28.37.0/24
+  - IP-CIDR,43.153.233.0/24
+  - IP-CIDR,124.156.233.0/24
+  - IP-CIDR,170.106.49.0/24
+  - IP-CIDR,119.91.245.0/24
+  - IP-CIDR,43.153.191.0/24
+  - IP-CIDR,101.32.198.0/24
 
   # === 长桥证券 (Longbridge) ===
   - DOMAIN-SUFFIX,lbkrs.com
